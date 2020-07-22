@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Font Links -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <title>Bootstrap 4 Starter</title>
+    </head>
+    <body>
+        <!-- <div class="container-fluid">
+                <div class="box text-center">Container-fluid &gt; width: 100%</div>
+        </div>
+        <div class="container">
+            <div class="box text-center">Container :: varying on screen size xs, sm, md, lg, xl</div>
+        </div> -->
+        <div class="container">
+            <div class="row border mb-3">
+                <div class="col-sm-11"><div class="box">col-sm-11</div></div>
+            </div>
+            <h3>Equal-width (grid)</h3>
+            <div class="row border mb-3">
+                <div class="col-md-6"><div class="box">col-md-6</div></div>
+                <div class="col-md-6"><div class="box">col-md-6</div></div>
+            </div>
+            <div class="row border mb-3">
+                <div class="col-md-4"><div class="box">col-md-4</div></div>
+                <div class="col-md-4"><div class="box">col-md-4</div></div>
+                <div class="col-md-4"><div class="box">col-md-4</div></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h3>Equal-width multi-line (flex and .w-100)</h3>
+            <div class="row border">
+                <div class="col-md"><div class="box">col-md</div></div>
+                <div class="col-md"><div class="box">col-md</div></div>
+                <div class="w-100"></div>
+                <div class="col-md"><div class="box">col-md</div></div>
+                <div class="col-md"><div class="box">col-md</div></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h3>Setting one column width (both grid and flex)</h3>
+            <div class="row border mb-3">
+                <div class="col-sm col-md"><div class="box">col-sm , col-md</div></div>
+                <div class="col-sm-5 col-md-8"><div class="box">col-sm-5 , col-md-8</div></div>
+                <div class="col-sm col-md"><div class="box">col-sm , col-md</div></div>
+            </div>
+            <div class="row border">
+                <div class="col-lg"><div class="box">col-lg</div></div>
+                <div class="col-lg-2"><div class="box">col-lg-2</div></div>
+                <div class="col-lg"><div class="box">col-lg</div></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h3>No gutters (in row)</h3>
+            <div class="row border no-gutters">
+                <div class="col-md-2"><div class="box2 bg-secondary">col-md-2</div></div>
+                <div class="col-md-4"><div class="box2 bg-danger">col-md-4</div></div>
+                <div class="col-md-6"><div class="box2 bg-success">col-md-6</div></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h3>Offsetting columns</h3>
+            <div class="row border mb-3">
+                <div class="col-md-4"><div class="box">col-md-4</div></div>
+                <div class="col-md-3 offset-md-5"><div class="box">col-md-3 , offset-md-5</div></div>
+            </div>
+            <div class="row border mb-3">
+                <div class="col-md-3 offset-3"><div class="box">col-md-3 , offset-3</div></div>
+                <div class="col-md-3 offset-2"><div class="box">col-md-3 , offset-2</div></div>
+            </div>
+            <h3>Margin utilities</h3>
+            <div class="row border mb-3">
+                <div class="col-sm-4"><div class="box">col-sm-4</div></div>
+                <div class="col-sm-3 ml-auto"><div class="box">col-sm-3 ml-auto</div></div>
+            </div>
+            <div class="row border mb-3">
+                <div class="col-sm-5 col-lg-4"><div class="box">col-sm-5 , col-lg-4</div></div>
+                <div class="col-sm-3 col-lg-5 mx-auto"><div class="box">col-sm-3 , col-lg-5 , mx-auto</div></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h3>Column breaks (breaking from md, .w-100 .d-none .d-md-block)</h3>
+            <div class="row border">
+                <div class="col-sm-4"><div class="box">col-sm-4</div></div>
+                <div class="col-sm-4"><div class="box">col-sm-4</div></div>
+                <div class="w-100 d-none d-md-block"></div>
+                <div class="col-sm-4"><div class="box">col-sm-4</div></div>
+                <div class="col-sm-4"><div class="box">col-sm-4</div></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h3>Vertical alignment :: align-items-center</h3>
+            <div class="row border h_300 align-items-center mb-3 bg-light">
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+            </div>
+            <h3>Vertical alignment :: align-items-start</h3>
+            <div class="row border h_300 align-items-start mb-3 bg-light">
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+            </div>
+            <h3>Vertical alignment :: align-items-end</h3>
+            <div class="row border h_300 align-items-end mb-3 bg-light">
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+                <div class="col-md-4"><div class="box3">col-md-4</div></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h3>Self Alignment</h3>
+            <div class="row border bg-light h_300">
+                <div class="col-sm-4 align-self-end"><div class="box2 bg-danger">ol-sm-4 , align-self-end</div></div>
+                <div class="col-sm-4 align-self-start"><div class="box2 bg-info">col-sm-4 , align-self-start</div></div>
+                <div class="col-sm-4 align-self-center"><div class="box2 bg-primary">col-sm-4 , align-self-center</div></div>
+            </div>
+        </div>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS-->
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
